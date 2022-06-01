@@ -26,6 +26,7 @@
             height: 2em;
             background-color: #323534;
             margin-inline: auto;
+            margin-top: 0em;
         }
 
         .navbar ul {
@@ -36,13 +37,17 @@
         .navbar li {
             float: left;
             margin: 0em 0.2em 0em 0em;
+            line-height: 2em;
         }
 
         nav a {
             text-decoration: none;
             color: white;
-            padding: 6px 35px 5px 28px;
-            background: #5A5A5A;
+            padding: 8px 35px 6px 28px;
+            background: #5A5A5A; 
+            border: 1px solid transparent;
+            border-top-left-radius:15px;
+            border-top-right-radius: 15px;
         }
 
         nav a:hover {
@@ -130,7 +135,7 @@
         .second ul li{
             color: #555555;
             padding: 0px 0px 4px 25px;
-            line-height: 1.5em;
+            line-height:2em;
             margin: 0;
             text-align: left;
             list-style-position: inside;
@@ -154,6 +159,9 @@
         a, a:hover{
             text-decoration: underline;
             color: #AEB002;
+        }
+         .active{
+            background-color: #AEB002;
         }
         h3{
             font-size: normal;
@@ -213,7 +221,7 @@
         </div>
         <nav class="navbar">
             <ul>
-                <li><a href="#">Home</a></li>
+                <li><a class="active" href="#">Home</a></li>
                 <li><a href="#">Examples</a></li>
                 <li><a href="#">A Page</a></li>
                 <li><a href="#">Another Page</a></li>
